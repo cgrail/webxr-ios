@@ -465,7 +465,6 @@
 				041503BE1F28944F00887400 /* Frameworks */,
 				041503BF1F28944F00887400 /* Resources */,
 				221606BE81C9D422A4D5F9C6 /* [CP] Embed Pods Frameworks */,
-				7D108A1273770BEA75062EFF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -579,21 +578,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XRViewer/Pods-XRViewer-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7D108A1273770BEA75062EFF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XRViewer/Pods-XRViewer-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -775,7 +759,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3Z7QAPFM7G;
 				GCC_PREFIX_HEADER = XRViewer/Resources/Prefix.h;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -786,7 +770,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -D USE_ANALYTICS";
-				PRODUCT_BUNDLE_IDENTIFIER = org.mozilla.ios.XRViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = grail.org.mozilla.ios.XRViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "XRViewer/Resources/XRViewer-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -801,7 +785,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3Z7QAPFM7G;
 				GCC_PREFIX_HEADER = XRViewer/Resources/Prefix.h;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -812,7 +796,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -D USE_ANALYTICS";
-				PRODUCT_BUNDLE_IDENTIFIER = org.mozilla.ios.XRViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = grail.org.mozilla.ios.XRViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "XRViewer/Resources/XRViewer-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;

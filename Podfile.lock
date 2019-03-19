@@ -43,6 +43,15 @@ DEPENDENCIES:
   - pop
   - PopupDialog
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaLumberjack
+    - DynamicBlurView
+    - FontAwesomeKit
+    - GCDWebServer
+    - pop
+    - PopupDialog
+
 EXTERNAL SOURCES:
   MozillaTelemetry:
     :branch: master
@@ -64,4 +73,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: a795f6f8f8601c57562cc690126059a7844e8b9a
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3
